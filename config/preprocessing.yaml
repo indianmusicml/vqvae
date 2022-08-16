@@ -1,0 +1,6 @@
+defaults:
+    - dataset: mrdangam
+    - preprocessing: default
+
+in_dir: ???
+split: 0.05

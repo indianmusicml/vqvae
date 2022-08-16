@@ -1,0 +1,10 @@
+defaults:
+    - dataset: mrdangam
+    - preprocessing: default
+    - model: default
+
+out_dir: ???
+in_path: ???
+vqvae_checkpoint: ???
+prior_checkpoint: ???
+vocoder_checkpoint: ???

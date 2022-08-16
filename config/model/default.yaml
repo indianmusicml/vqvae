@@ -1,0 +1,22 @@
+model:
+    encoder:
+#        in_channels: ${preprocessing.n_mels}
+#        in_channels: ${preprocessing.n_fft2}
+        in_channels: 1
+        channels: 512
+        n_embeddings: 512
+        embedding_dim: 64
+        jitter: 0.
+    decoder:
+#        in_channels: ${preprocessing.n_fft2}
+        in_channels: 1
+        channels: 512
+        embedding_dim: 64
+#    decoder:
+#        in_channels: ${model.encoder.embedding_dim}
+#        conditioning_channels: 128
+#        mu_embedding_dim: 256
+#        rnn_channels: 896
+#        fc_channels: 256
+#        bits: ${preprocessing.bits}
+#        hop_length: ${preprocessing.hop_length}

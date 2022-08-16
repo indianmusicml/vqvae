@@ -1,0 +1,12 @@
+defaults:
+    - dataset: mrdangam
+    - preprocessing: default
+    - model: default
+
+in_path_mag: ???
+in_path_mel: ???
+in_path_idx: ???
+in_path_wav: ???
+out_path: ???
+vqvae_checkpoint: ???
+prior_checkpoint: ???

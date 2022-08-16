@@ -1,0 +1,9 @@
+defaults:
+    - dataset: musopen
+    - preprocessing: default
+    - model: default
+    - training: default
+
+resume: False
+checkpoint_dir: ???
+out_dir: ???
